@@ -16,6 +16,7 @@ La réalisation d'un système de détection de fuite de gaz
 Le prototype réalisé est constitué de trois blocs distincts :
 
  ✔ Bloc de détection de la présence du gaz:
+ 
  ✔ Bloc d'activation d'alarme:
 
 
