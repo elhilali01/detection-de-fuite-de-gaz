@@ -23,5 +23,6 @@ Le prototype réalisé est constitué de trois blocs distincts :
  Le système d’alarme est composé d’un Buzzer et deux LEDS de signalisation : verte et rouge. Ces éléments sont reliés à la carte Arduino.
 Le contrôle de ces éléments (activation ou désactivation) est géré via un programme téléversé vers la carte Arduino. Dans le cas d'absence d'une excitation externe, la LED verte est passante (allumée). Par contre la LED rouge est bloquée (éteinte) et le buzzer est inactif. Dans le cas inverse, la LED rouge est allumée et le buzzer est actif. Par conséquent, la LED vert est éteinte.
 
-
+# fonctionnement de systeme :
+Le prototype de détection de fuite de gaz comporte un circuit qui reste inactif en l'absence de fuite. Dans ce cas, la LED verte est allumée, indiquant que le gaz n'est pas détecté. Cependant, si la concentration de gaz dépasse 350 ppm, le capteur MQ-2 envoie un signal à la carte Arduino, activant le circuit d'alarme. Cela se traduit par l'extinction de la LED verte, l'allumage de la LED rouge et le déclenchement du buzzer. La carte Arduino affiche alors le message '' gas is detected '' sur l'écran LCD. 
 
