@@ -14,9 +14,10 @@ La réalisation d'un système de détection de fuite de gaz
   
 # Description du prototype : 
 Le prototype réalisé est constitué de trois blocs distincts :
+
  ✔ Bloc de détection de la présence du gaz:
- 
- L’élément principal de détection utilisé dans notre prototype est le MQ-2. Ce capteur passif est relié avec la carte ARDUINO via une sortie numérique. Lors du contact entre la couche sensible du capteur et le gaz, la résistance entre les électrodes métalliques change proportionnellement à la concentration du gaz.
+ L’élément principal de détection utilisé dans notre prototype est le MQ-2. Ce capteur passif est relié avec la carte ARDUINO via une sortie 
+  numérique. Lors du contact entre la couche sensible du capteur et le gaz, la résistance entre les électrodes métalliques change proportionnellement à la concentration du gaz.
  
  ✔ Bloc d'activation d'alarme:
  Le système d’alarme est composé d’un Buzzer et deux LEDS de signalisation : verte et rouge. Ces éléments sont reliés à la carte Arduino.
